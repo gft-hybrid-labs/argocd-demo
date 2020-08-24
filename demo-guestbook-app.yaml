@@ -22,4 +22,4 @@ spec:
   project: default
   source:
     path: guestbook
-    repoURL: https://github.com/PsychoSid/argocd-example.git
+    repoURL: https://github.com/gfthybridlabs/argocd.git
