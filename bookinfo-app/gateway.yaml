@@ -1,0 +1,28 @@
+apiVersion: networking.istio.io/v1alpha3
+kind: Gateway
+metadata:
+  name: bookinfo-gateway
+  namespace: bookinfo
+spec:
+  selector:
+    istio: ingressgateway # use istio default controller
+  servers:
+  - port:
+      number: 80
+      name: http-bookinfo
+      protocol: HTTP
+    hosts:
+    - bookinfo.gfthybrid.com
+    - bookinfo-gcp.gfthybrid.com
+    - bookinfo-aws.gfthybrid.com
+  - port:
+      number: 443
+      name: https-bookinfo
+      protocol: HTTPS
+    hosts:
+    - bookinfo.gfthybrid.com
+    - bookinfo-gcp.gfthybrid.com
+    - bookinfo-aws.gfthybrid.com
+    tls:
+      mode: SIMPLE # enables HTTPS on this port
+      credentialName: ingress-cert
