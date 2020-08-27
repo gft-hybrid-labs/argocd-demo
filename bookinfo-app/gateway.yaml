@@ -25,4 +25,4 @@ spec:
     - bookinfo-aws.gfthybrid.com
     tls:
       mode: SIMPLE # enables HTTPS on this port
-      credentialName: ingress-cert
+      credentialName: ingress-cert-wildcard
