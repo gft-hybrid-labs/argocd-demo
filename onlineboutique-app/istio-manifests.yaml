@@ -36,8 +36,7 @@ spec:
       name: https
       protocol: HTTPS
     hosts:
-    - boutique.gfthybrid.com
-    - boutique-gcp.gfthybrid.com
+    - boutique-aws.gfthybrid.com
     tls:
       mode: SIMPLE # enables HTTPS on this port
       credentialName: ingress-cert-wildcard
