@@ -13,7 +13,7 @@ spec:
   source:
     path: boa-app
     repoURL: https://github.com/gfthybridlabs/argocd.git
-    targetRevision: HEAD
+    targetRevision: aws
   syncPolicy:
     automated:
       selfHeal: true
