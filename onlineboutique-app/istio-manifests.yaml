@@ -30,8 +30,7 @@ spec:
       name: http
       protocol: HTTP
     hosts:
-    - boutique.gfthybrid.com
-    - boutique-gcp.gfthybrid.com
+    - boutique-aws.gfthybrid.com
   - port:
       number: 443
       name: https
@@ -50,8 +49,7 @@ metadata:
   namespace: onlineboutique
 spec:
   hosts:
-  - boutique.gfthybrid.com
-  - boutique-gcp.gfthybrid.com
+  - boutique-aws.gfthybrid.com
   gateways:
   - frontend-gateway
   http:

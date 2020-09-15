@@ -12,16 +12,12 @@ spec:
       name: http-boa
       protocol: HTTP
     hosts:
-    - boa.gfthybrid.com
-    - boa-gcp.gfthybrid.com
     - boa-aws.gfthybrid.com
   - port:
       number: 443
       name: https-boa
       protocol: HTTPS
     hosts:
-    - boa.gfthybrid.com
-    - boa-gcp.gfthybrid.com
     - boa-aws.gfthybrid.com
     tls:
       mode: SIMPLE # enables HTTPS on this port

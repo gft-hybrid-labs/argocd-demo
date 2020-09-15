@@ -12,16 +12,12 @@ spec:
       name: http-bookinfo
       protocol: HTTP
     hosts:
-    - bookinfo.gfthybrid.com
-    - bookinfo-gcp.gfthybrid.com
     - bookinfo-aws.gfthybrid.com
   - port:
       number: 443
       name: https-bookinfo
       protocol: HTTPS
     hosts:
-    - bookinfo.gfthybrid.com
-    - bookinfo-gcp.gfthybrid.com
     - bookinfo-aws.gfthybrid.com
     tls:
       mode: SIMPLE # enables HTTPS on this port
