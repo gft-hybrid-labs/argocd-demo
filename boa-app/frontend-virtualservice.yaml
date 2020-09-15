@@ -7,7 +7,6 @@ spec:
   hosts:
   - boa.gfthybrid.com
   - boa-gcp.gfthybrid.com
-  - boa-aws.gfthybrid.com
   gateways:
   - boa-gateway
   http:

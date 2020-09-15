@@ -7,7 +7,6 @@ spec:
   hosts:
   - bookinfo.gfthybrid.com
   - bookinfo-gcp.gfthybrid.com
-  - bookinfo-aws.gfthybrid.com
   gateways:
   - bookinfo-gateway
   http:
