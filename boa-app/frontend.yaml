@@ -81,7 +81,8 @@ metadata:
   name: frontend
   namespace: boa
 spec:
-  type: LoadBalancer
+  # type: LoadBalancer
+  type: ClusterIP
   selector:
     app: frontend
   ports:
