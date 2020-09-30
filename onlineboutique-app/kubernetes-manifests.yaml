@@ -294,7 +294,7 @@ metadata:
   name: frontend-external
   namespace: onlineboutique
 spec:
-  type: LoadBalancer
+  type: ClusterIP
   selector:
     app: frontend
   ports:
