@@ -4,4 +4,4 @@ kind: Namespace
 metadata:
   name: boa
   labels:
-    istio-injection: enabled
+    istio.io/rev: asm-1611-1

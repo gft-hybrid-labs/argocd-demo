@@ -4,4 +4,4 @@ kind: Namespace
 metadata:
   name: onlineboutique
   labels:
-    istio-injection: enabled
+    istio.io/rev: asm-1611-1
