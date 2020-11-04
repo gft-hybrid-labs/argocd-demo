@@ -25,7 +25,7 @@ spec:
     metadata:
       labels:
         app: rollouts-demo
-        istio.io/rev: asm-1611-1
+        istio.io/rev: asm-173-6
     spec:
       containers:
       - name: rollouts-demo
