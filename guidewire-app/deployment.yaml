@@ -26,24 +26,6 @@ spec:
           ports:
             - name: liveness-port
               containerPort: 8080
-          startupProbe:
-            httpGet:
-              path: /
-              port: liveness-port
-            failureThreshold: 30 # takes about 15 mins to setup
-            periodSeconds: 30
-          livenessProbe:
-            httpGet:
-              path: /
-              port: liveness-port
-            initialDelaySeconds: 20
-            periodSeconds: 10
-          # readinessProbe:
-          #   httpGet:
-          #     path: /
-          #     port: liveness-port
-          #   initialDelaySeconds: 20
-          #   periodSeconds: 10
           resources:
             limits:
               cpu: 600m
