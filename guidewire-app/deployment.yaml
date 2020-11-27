@@ -38,12 +38,12 @@ spec:
               port: liveness-port
             initialDelaySeconds: 20
             periodSeconds: 10
-          readinessProbe:
-            httpGet:
-              path: /
-              port: liveness-port
-            initialDelaySeconds: 20
-            periodSeconds: 10
+          # readinessProbe:
+          #   httpGet:
+          #     path: /
+          #     port: liveness-port
+          #   initialDelaySeconds: 20
+          #   periodSeconds: 10
           resources:
             limits:
               cpu: 600m
