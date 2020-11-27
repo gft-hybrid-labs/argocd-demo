@@ -1,0 +1,24 @@
+apiVersion: networking.istio.io/v1alpha3
+kind: Gateway
+metadata:
+  name: guidewire-gw
+  namespace: demo
+spec:
+  selector:
+    istio: ingressgateway # use Istio default gateway implementation
+  servers:
+    - port:
+        number: 80
+        name: http-guidewire
+        protocol: HTTP
+      hosts:
+        - policycenter-gcp.gfthybrid.com
+    # - port:
+    #     number: 443
+    #     name: https-guidewire
+    #     protocol: HTTPS
+    #   hosts:
+    #     - policycenter-gcp.gfthybrid.com
+    #   tls:
+    #     mode: SIMPLE
+    #     credentialName: ingress-cert-wildcard
