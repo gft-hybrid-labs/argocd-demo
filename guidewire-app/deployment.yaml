@@ -23,6 +23,7 @@ spec:
               value: 0.0.0.0
           name: server
           image: gcr.io/gft-anthos-demo/pc:v8
+          imagePullPolicy: Always
           ports:
             - name: liveness-port
               containerPort: 8080
