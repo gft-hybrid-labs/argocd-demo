@@ -13,12 +13,3 @@ spec:
         protocol: HTTP
       hosts:
         - policycenter-gcp.gfthybrid.com
-    - port:
-        number: 443
-        name: https-guidewire
-        protocol: HTTPS
-      hosts:
-        - policycenter-gcp.gfthybrid.com
-      tls:
-        mode: SIMPLE
-        credentialName: ingress-cert-wildcard
