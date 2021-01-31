@@ -12,13 +12,15 @@ spec:
       name: http-boa
       protocol: HTTP
     hosts:
-    - boa-aws.gfthybrid.com
+    - boa.gfthybrid.com
+    - boa-gcp.gfthybrid.com
   - port:
       number: 443
       name: https-boa
       protocol: HTTPS
     hosts:
-    - boa-aws.gfthybrid.com
+    - boa.gfthybrid.com
+    - boa-gcp.gfthybrid.com
     tls:
       mode: SIMPLE # enables HTTPS on this port
       credentialName: ingress-cert-wildcard

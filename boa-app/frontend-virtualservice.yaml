@@ -5,7 +5,8 @@ metadata:
   namespace: boa
 spec:
   hosts:
-  - boa-aws.gfthybrid.com
+  - boa.gfthybrid.com
+  - boa-gcp.gfthybrid.com
   gateways:
   - boa-gateway
   http:
