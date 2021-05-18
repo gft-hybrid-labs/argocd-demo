@@ -43,7 +43,7 @@ spec:
         - name: ENABLE_TRACING
           value: "false"
         - name: ENABLE_METRICS
-          value: "false
+          value: "false"
         # Valid levels are debug, info, warning, error, critical.
         # If no valid level is set, will default to info.
         - name: LOG_LEVEL
