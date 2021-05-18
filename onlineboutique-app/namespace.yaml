@@ -4,4 +4,4 @@ kind: Namespace
 metadata:
   name: onlineboutique
   labels:
-    istio.io/rev: asm-176-1
+    istio.io/rev: asm-178-8

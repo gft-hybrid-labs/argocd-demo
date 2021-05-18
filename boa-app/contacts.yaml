@@ -16,6 +16,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: contacts
+  namespace: boa
 spec:
   selector:
     matchLabels:
@@ -76,6 +77,7 @@ apiVersion: v1
 kind: Service
 metadata:
   name: contacts
+  namspace: boa
 spec:
   type: ClusterIP
   selector:
