@@ -10,7 +10,7 @@ spec:
   project: anthos
   source:
     path: boa-app
-    repoURL: https://github.com/gfthybridlabs/argocd.git
+    repoURL: https://github.com/gft-hybrid-labs/argocd-demo.git
     targetRevision: gcp
   syncPolicy:
     automated:
