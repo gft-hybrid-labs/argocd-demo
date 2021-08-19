@@ -85,6 +85,8 @@ spec:
   hosts:
   - "accounts.google.com" # Used to get token
   - "*.googleapis.com"
+  exportTo:
+  - "."
   ports:
   - number: 80
     protocol: HTTP
@@ -101,6 +103,8 @@ metadata:
 spec:
   hosts:
   - metadata.google.internal
+  exportTo:
+  - "."
   addresses:
   - 169.254.169.254 # GCE metadata server
   ports:
